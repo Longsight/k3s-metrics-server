@@ -46,7 +46,7 @@ spec:
         emptyDir: {}
       containers:
       - name: metrics-server
-        image: "hub.docker.com/rancher/mirrored-metrics-server:v0.7.2"
+        image: rancher/mirrored-metrics-server:v0.7.2
         args:
         - --cert-dir=/tmp
         - --secure-port=10250
